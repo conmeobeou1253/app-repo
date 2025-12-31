@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: "https://github.com/conmeobeou1253/app-repo.git"
     targetRevision: HEAD
-    path: chart
+    path: chart/
     helm:
       valueFiles:
         - values-prod.yaml
