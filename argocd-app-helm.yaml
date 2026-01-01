@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: "https://github.com/conmeobeou1253/app-repo.git"
-    targetRevision: HEAD
+    targetRevision: master
     path: chart
     helm:
       valueFiles:
