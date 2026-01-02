@@ -10,9 +10,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/conmeobeou1253/app-repo.git"
+    repoURL: "https://github.com/conmeobeou1253/helm-repo.git"
     targetRevision: HEAD
-    path: helm-repo/argocd
+    path: argocd
   destination:
     server: "https://kubernetes.default.svc"
     namespace: argocd
@@ -34,9 +34,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/conmeobeou1253/app-repo.git"
+    repoURL: "https://github.com/conmeobeou1253/helm-repo.git"
     targetRevision: HEAD
-    path: helm-repo/monitoring
+    path: monitoring
   destination:
     server: "https://kubernetes.default.svc"
     namespace: monitoring
@@ -59,9 +59,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/conmeobeou1253/app-repo.git"
+    repoURL: "https://github.com/conmeobeou1253/helm-repo.git"
     targetRevision: HEAD
-    path: helm-repo/loki
+    path: loki
   destination:
     server: "https://kubernetes.default.svc"
     namespace: monitoring
@@ -83,9 +83,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/conmeobeou1253/app-repo.git"
+    repoURL: "https://github.com/conmeobeou1253/helm-repo.git"
     targetRevision: HEAD
-    path: helm-repo/ingress-nginx
+    path: ingress-nginx
   destination:
     server: "https://kubernetes.default.svc"
     namespace: ingress-nginx
@@ -107,9 +107,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: "https://github.com/conmeobeou1253/app-repo.git"
+    repoURL: "https://github.com/conmeobeou1253/helm-repo.git"
     targetRevision: HEAD
-    path: helm-repo/metrics-server
+    path: metrics-server
   destination:
     server: "https://kubernetes.default.svc"
     namespace: kube-system
